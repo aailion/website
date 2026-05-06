@@ -2,19 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yourbrain.doctor/evaluations/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/neuropsychological-evaluation/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/psychoeducational-evaluation/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/adhd-testing/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/autism-evaluation/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/learning-disability-dyslexia/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/executive-functioning/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/concussion-tbi-cognitive-rehabilitation/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/college-testing-accommodations/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/evaluations/school-consultation-iep-504-support/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/resources/adhd-vs-anxiety/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yourbrain.doctor/</loc>
-    <lastmod>2022-08-05T21:43:36-04:00</lastmod>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yourbrain.doctor/assessment/</loc>
-    <lastmod>2022-08-05T21:43:36-04:00</lastmod>
+    <loc>https://yourbrain.doctor/resources/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yourbrain.doctor/therapy/</loc>
-    <lastmod>2022-08-05T21:43:36-04:00</lastmod>
+    <loc>https://yourbrain.doctor/resources/when-to-seek-neuropsych-evaluation/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yourbrain.doctor/whoweare/</loc>
-    <lastmod>2022-08-05T21:43:36-04:00</lastmod>
+    <loc>https://yourbrain.doctor/about/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/categories/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/contact/</loc>
   </url><url>
     <loc>https://yourbrain.doctor/faqs/</loc>
-    <lastmod>2022-08-05T21:43:36-04:00</lastmod>
+  </url><url>
+    <loc>https://yourbrain.doctor/fees-insurance/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/referrals/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/tags/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/thank-you/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/therapy-fees/</loc>
+  </url><url>
+    <loc>https://yourbrain.doctor/therapy/</loc>
   </url>
 </urlset>

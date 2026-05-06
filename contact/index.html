@@ -31,32 +31,62 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "\"Esplanade Psychological Services, PLLC\"",
-  "url": "\"https://yourbrain.doctor/\"",
-  "email": "\"EsplanadePsych@gmail.com\"",
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "contactType": "customer support",
-    "email": "\"EsplanadePsych@gmail.com\""
-  }],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Boston",
-    "addressRegion": "MA",
-    "addressCountry": "US"
-  },
-  "areaServed": "[\"Boston\",\"Back Bay\",\"Brookline\",\"Lexington\",\"Bedford\"]",
-  "sameAs": [],
-  "knowsAbout": [
-    "Neuropsychological evaluation",
-    "Psychoeducational evaluation",
-    "ADHD testing",
-    "Autism evaluation",
-    "Learning disability assessment",
-    "Executive functioning",
-    "Cognitive behavioral therapy",
-    "Cognitive rehabilitation"
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "name": "\"Esplanade Psychological Services, PLLC\"",
+      "url": "\"https://yourbrain.doctor/\"",
+      "description": "\"Boutique neuropsychological and psychoeducational evaluations and virtual therapy for children, teens, and young adults (ages 5–25) in Boston and across MA, VT, NH, and RI.\"",
+      "email": "\"EsplanadePsych@gmail.com\"",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "\"EsplanadePsych@gmail.com\""
+      }],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Boston",
+        "addressRegion": "MA",
+        "addressCountry": "US"
+      },
+      "areaServed": "[\"Boston\",\"Back Bay\",\"Brookline\",\"Lexington\",\"Bedford\"]",
+      "medicalSpecialty": [
+        "Clinical Neuropsychology",
+        "Psychology",
+        "Pediatric Neuropsychology"
+      ],
+      "knowsAbout": [
+        "Neuropsychological evaluation",
+        "Psychoeducational evaluation",
+        "ADHD testing",
+        "Autism evaluation",
+        "Learning disability assessment",
+        "Executive functioning",
+        "Cognitive behavioral therapy",
+        "Cognitive rehabilitation",
+        "Cognitive outcomes",
+        "Neuroimaging"
+      ]
+    },
+    {
+      "@type": "Person",
+      "name": "\"Alyssa Ailion, PhD\"",
+      "jobTitle": "Clinical Psychologist and Board-Certified Clinical Neuropsychologist",
+      "affiliation": [
+        "Harvard Medical School",
+        "Boston Children's Hospital"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "\"Esplanade Psychological Services, PLLC\""
+      },
+      "sameAs": [
+        "https://www.psychologytoday.com/us/therapists/esplanade-pediatric-psychological-services-llc-boston-ma/969827",
+        "https://scholar.google.com/citations?user=sTOughEAAAAJ&hl=en",
+        "https://connects.catalyst.harvard.edu/Profiles/display/Person/195076",
+        "https://www.childrenshospital.org/providers/alyssa-ailion"
+      ]
+    }
   ]
 }
 </script>
@@ -74,7 +104,7 @@
       </div>
       <div class="topbar-right">
         <a class="topbar-link" href="mailto:EsplanadePsych@gmail.com">EsplanadePsych@gmail.com</a>
-        <a class="btn btn-small btn-primary" href="/contact/">Request a consultation</a>
+        <a class="btn btn-small btn-primary" href="/contact/">Request a Free 15-Minute Consultation</a>
       </div>
     </div>
   </div>
@@ -99,6 +129,21 @@
             
           
             
+              <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+            
+          
+            
+              <li class="nav-item nav-item-has-children">
+                <a class="nav-link" href="/therapy/">Therapy</a>
+                <ul class="nav-submenu" aria-label="Therapy">
+                  
+                    <li class="nav-subitem"><a class="nav-sublink" href="/therapy-fees/">Therapy fees</a></li>
+                  
+                </ul>
+              </li>
+            
+          
+            
               <li class="nav-item nav-item-has-children">
                 <a class="nav-link" href="/evaluations/">Evaluations</a>
                 <ul class="nav-submenu" aria-label="Evaluations">
@@ -115,8 +160,6 @@
                   
                     <li class="nav-subitem"><a class="nav-sublink" href="/evaluations/executive-functioning/">Executive Functioning</a></li>
                   
-                    <li class="nav-subitem"><a class="nav-sublink" href="/evaluations/concussion-tbi-cognitive-rehabilitation/">Concussion / TBI &amp; Cognitive Rehab</a></li>
-                  
                     <li class="nav-subitem"><a class="nav-sublink" href="/evaluations/college-testing-accommodations/">College &amp; Testing Accommodations</a></li>
                   
                     <li class="nav-subitem"><a class="nav-sublink" href="/evaluations/school-consultation-iep-504-support/">School Consultation / IEP &amp; 504</a></li>
@@ -126,34 +169,27 @@
             
           
             
-              <li class="nav-item nav-item-has-children">
-                <a class="nav-link" href="/therapy/">Therapy</a>
-                <ul class="nav-submenu" aria-label="Therapy">
-                  
-                    <li class="nav-subitem"><a class="nav-sublink" href="/therapy-fees/">Therapy fees</a></li>
-                  
-                </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="/consulting/">Consulting</a></li>
             
           
             
-              <li class="nav-item"><a class="nav-link" href="/referrals/">For Providers &amp; Schools</a></li>
+              <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
             
           
             
-              <li class="nav-item"><a class="nav-link" href="/fees-insurance/">Fees &amp; Insurance</a></li>
+              <li class="nav-item"><a class="nav-link" href="/fees-insurance/">Fees</a></li>
             
           
             
-              <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
-            
-          
-            
-              <li class="nav-item"><a class="nav-link" href="/faqs/">FAQs</a></li>
+              <li class="nav-item"><a class="nav-link" href="/faqs/">FAQ</a></li>
             
           
             
               <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+            
+          
+            
+              <li class="nav-item"><a class="nav-link" href="/referrals/">Referrals</a></li>
             
           
         </ul>
@@ -188,9 +224,14 @@
 
   <div class="container page">
     <article class="prose" style="margin-bottom: 1.25rem;">
-      <p>Use the form below to request an evaluation, a therapy consultation, or to make a professional/school referral.</p>
+      <p>Use the form below to request an evaluation, a therapy consultation, a professional/school referral, or consulting.</p>
+<p>We offer a <strong>free 15-minute initial consultation</strong> (by phone or email) to determine fit, clarify the referral question, and discuss next steps.</p>
 <p>If you’re not sure what you need yet, that’s okay—share a brief description of your concerns and we’ll respond by email with next steps.</p>
 <p><strong>Please do not include sensitive clinical details</strong> in this form or in email.</p>
+<div class="callout">
+  <strong>Crisis / Emergency Information</strong><br>
+  Esplanade Psychological Services is not an emergency or crisis service. If you or your child is at immediate risk of harm, call 911 or go to the nearest emergency room. For mental health crisis support, call or text 988 or use the 988 Lifeline chat. In Massachusetts, you may also call or text the Behavioral Health Help Line at 833-773-2445.
+</div>
 
     </article>
 
@@ -237,6 +278,11 @@
           <option>School professional</option>
           <option>Educational consultant / college support professional</option>
           <option>Early intervention provider (PT/OT/SLP)</option>
+          <option>Pharmaceutical / biotechnology company</option>
+          <option>Research organization</option>
+          <option>Healthcare organization</option>
+          <option>Legal / professional consultant</option>
+          <option>Other organization</option>
           <option>Other</option>
         </select>
       </div>
@@ -251,8 +297,20 @@
           <option>Learning disability / dyslexia evaluation</option>
           <option>College/testing accommodations</option>
           <option>Virtual therapy</option>
+          <option>Professional / industry consulting</option>
           <option>Not sure</option>
         </select>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-field">
+        <label for="organizationName">Organization name (optional)</label>
+        <input id="organizationName" name="organizationName" type="text" autocomplete="organization" placeholder="e.g., Hospital, company, school, research team">
+      </div>
+      <div class="form-field">
+        <label for="projectType">Project type (optional)</label>
+        <input id="projectType" name="projectType" type="text" placeholder="e.g., trial outcomes, protocol development, training">
       </div>
     </div>
 
@@ -262,7 +320,7 @@
         <input id="age" name="age" type="text" inputmode="numeric" placeholder="e.g., 9">
       </div>
       <div class="form-field">
-        <label for="timeline">Timeline</label>
+        <label for="timeline">Preferred timeline</label>
         <select id="timeline" name="timeline" required>
           <option value="" selected disabled>Select one</option>
           <option>As soon as possible</option>
@@ -325,9 +383,9 @@
     <div class="footer-col">
       <div class="footer-title">Contact</div>
       <ul class="footer-links">
-        <li><a href="/contact/">Request a consultation</a></li>
+        <li><a href="/contact/">Request a free 15-minute consultation</a></li>
         <li><a href="mailto:EsplanadePsych@gmail.com">EsplanadePsych@gmail.com</a></li>
-        <li><a href="/referrals/">For providers & schools</a></li>
+        <li><a href="/referrals/">Referrals</a></li>
       </ul>
       <p class="fineprint">Please do not include sensitive clinical details in email or the website form.</p>
     </div>
@@ -337,11 +395,27 @@
       <ul class="footer-links">
         <li><a href="/evaluations/">Evaluations</a></li>
         <li><a href="/therapy/">Therapy</a></li>
+        <li><a href="/consulting/">Consulting</a></li>
+        <li><a href="/research/">Research</a></li>
         <li><a href="/therapy-fees/">Therapy fees</a></li>
         <li><a href="/fees-insurance/">Evaluation fees & insurance</a></li>
+        <li><a href="/fees-insurance/#good-faith-estimate">Good Faith Estimate</a></li>
         <li><a href="/faqs/">FAQs</a></li>
         <li><a href="/resources/">Resources</a></li>
       </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-title">Professional profiles</div>
+      <ul class="footer-links">
+        <li><a href="https://www.psychologytoday.com/us/therapists/esplanade-pediatric-psychological-services-llc-boston-ma/969827" target="_blank" rel="noopener" aria-label="Open Psychology Today profile in a new tab">Psychology Today</a></li>
+        <li><a href="https://scholar.google.com/citations?user=sTOughEAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Open Google Scholar profile in a new tab">Google Scholar</a></li>
+        <li><a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/195076" target="_blank" rel="noopener" aria-label="Open Harvard Catalyst profile in a new tab">Harvard Catalyst</a></li>
+        <li><a href="https://www.childrenshospital.org/providers/alyssa-ailion" target="_blank" rel="noopener" aria-label="Open Boston Children's Hospital profile in a new tab">Boston Children’s Hospital</a></li>
+      </ul>
+
+      <div class="footer-title" style="margin-top: 1rem;">Crisis / Emergency Information</div>
+      <p class="fineprint">Esplanade Psychological Services is not an emergency or crisis service. If you or your child is at immediate risk of harm, call 911 or go to the nearest emergency room. For mental health crisis support, call or text 988 or use the 988 Lifeline chat. In Massachusetts, you may also call or text the Behavioral Health Help Line at 833-773-2445.</p>
     </div>
   </div>
 

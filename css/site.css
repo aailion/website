@@ -231,6 +231,29 @@ a { color: inherit; }
 .text-link { color: var(--primary-2); text-decoration: none; font-weight: 600; }
 .text-link:hover { text-decoration: underline; }
 
+/* Profile links (pill buttons) */
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.85rem;
+}
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.profile-link:hover { background: var(--muted-bg); }
+
+
 /* Hero */
 .hero {
   background: radial-gradient(1200px 600px at 10% 10%, rgba(31, 141, 214, 0.14), rgba(255, 255, 255, 0)),
@@ -491,10 +514,11 @@ input:focus, select:focus, textarea:focus {
 }
 .footer-inner {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr 1fr 1.1fr;
   gap: 1.5rem;
   padding: 2.5rem 0;
 }
+
 .footer-title { font-weight: 700; margin-bottom: 0.6rem; }
 .footer-text { color: rgba(255, 255, 255, 0.75); margin: 0 0 0.75rem; }
 .footer-links { list-style: none; padding: 0; margin: 0; }
